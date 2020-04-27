@@ -1,0 +1,237 @@
+/*----------Fonts---------*/
+
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+/*------------/Fonts--------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    height: 450px;
+    width: 100%;
+    border-radius: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+bg-color-map {
+    background-color: grey;
+}
+
+/*--------Text transform--------*/
+
+.uppercase {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+}
+
+/*--------Text transform--------*/
+
+/*---------styling for the image cards Sweden,Jamaica,South Africa------*/
+
+.card-body {
+    background-color: rgb(39, 37, 37);
+    color: white;
+    margin-bottom: 20px;
+}
+
+/*---------styling for the image cards Sweden,Jamaica,South Africa------*/
+
+/*------------Styling for the main image or callout logo----------*/
+
+.jumbotron {
+    position: relative;
+    overflow: hidden;
+}
+
+.jumbotron .container {
+    position: relative;
+    z-index: 2;
+    background: rgba(#ff6600);
+    padding: 2rem;
+    border: 1px solid rgba(255, 102, 0);
+    border-radius: 20px;
+}
+
+.jumbotron-background {
+    object-fit: cover;
+    font-family: 'object-fit: cover;';
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.fa-plane-departure {
+    color: rgba(228, 134, 13, 0.726);
+    font-size: 50px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.fa-wine-glass {
+    color: darkred;
+    font-size: 55px;
+    margin-right: 100px;
+    margin-top: 45px;
+}
+
+.fa-utensils {
+    color: Grey;
+    font-size: 55px;
+    margin-right: 100px;
+    margin-top: 45px;
+}
+
+.fa-ship {
+    color: rgb(47, 110, 139);
+    font-size: 55px;
+    margin-right: 100px;
+    margin-top: 45px;
+}
+
+.fa-swimming-pool {
+    color: blue;
+    font-size: 55px;
+    margin-right: 100px;
+    margin-top: 45px;
+}
+
+.fa-umbrella-beach {
+    color: yellow;
+    font-size: 55px;
+    margin-right: 0px;
+    margin-top: 45px;
+}
+
+/*-------media queries--------*/
+
+@media (max-width: 600px) {
+    .fa-wine-glass {
+        color: darkred;
+        font-size: 25px;
+        margin: 15px;
+    }
+    .fa-utensils {
+        color: Grey;
+        font-size: 25px;
+        margin: 15px;
+    }
+    .fa-ship {
+        color: rgb(47, 110, 139);
+        font-size: 25px;
+        margin: 15px;
+    }
+    .fa-swimming-pool {
+        color: blue;
+        font-size: 25px;
+        margin: 15px;
+    }
+    .fa-umbrella-beach {
+        color: yellow;
+        font-size: 25px;
+        margin: 15px;
+    }
+}
+
+@media (max-width: 684px) {
+    .fa-wine-glass {
+        color: darkred;
+        font-size: 25px;
+        margin: 15px;
+    }
+    .fa-utensils {
+        color: Grey;
+        font-size: 25px;
+        margin: 15px;
+    }
+    .fa-ship {
+        color: rgb(47, 110, 139);
+        font-size: 25px;
+        margin: 15px;
+    }
+    .fa-swimming-pool {
+        color: blue;
+        font-size: 25px;
+        margin: 15px;
+    }
+    .fa-umbrella-beach {
+        color: yellow;
+        font-size: 25px;
+        margin: 15px;
+    }
+}
+
+/*-------media queries--------*/
+
+/*------------Styling for the main image or callout logo----------*/
+
+.centered-text {
+    text-align: center;
+}
+
+.special-font {
+    font-family: 'Special Elite', cursive;
+}
+
+.form-control {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.alert {
+    margin: 0px;
+}
+
+footer {
+    background-color: #3b3b33;
+    margin: 0;
+    padding: 0;
+}
+
+/*----social media tags----*/
+
+.social {
+    list-style: none;
+    margin: 10px 30px;
+    display: block;
+    font-size: 40px;
+    padding: 20px 20px;
+    color: #fff;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.fa-facebook-square {
+    color: rgb(34, 34, 221);
+}
+
+.fa-instagram {
+    color: rgb(212, 45, 45)
+}
+
+.fa-twitter {
+    color: lightseagreen;
+}
+
+.fa-codepen {
+    color: black;
+}
+
+.social:hover {
+    background-color: rgb(224, 218, 218);
+}
+
+/*----social media tags----*/
